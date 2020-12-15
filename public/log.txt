@@ -1,0 +1,456 @@
+SimpleXMLElement Object
+(
+    [error] => SimpleXMLElement Object
+        (
+            [code] => 13001
+            [message] => invalid notification code value: 4D76BFFE-8BA2-4B39-99DC-AD1CA02BDD37
+        )
+
+)
+Undefined variable: updateSimpleXMLElement Object
+(
+    [error] => SimpleXMLElement Object
+        (
+            [code] => 13001
+            [message] => invalid notification code value: C96DA674-B1C9-4148-AB61-95FF751DDDED
+        )
+
+)
+Undefined variable: updateSimpleXMLElement Object
+(
+    [error] => SimpleXMLElement Object
+        (
+            [code] => 13001
+            [message] => invalid notification code value: 1B865AB6-27B2-4A2B-8069-D4792B8BF044
+        )
+
+)
+SimpleXMLElement Object
+(
+    [error] => SimpleXMLElement Object
+        (
+            [code] => 13001
+            [message] => invalid notification code value: 22FFE4FB-2689-4140-97AE-4968BB08FBEE
+        )
+
+)
+Array
+(
+    [notificationCode] => 4B22DE-4C8DC98DC9B9-E004FC2FA554-52ED26
+    [notificationType] => transaction
+)
+SimpleXMLElement Object
+(
+    [date] => 2020-12-14T23:56:18.000-03:00
+    [code] => 22FFE4FB-2689-4140-97AE-4968BB08FBEE
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2020-12-15T00:05:38.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 483.00
+    [discountAmount] => 0.00
+    [feeAmount] => 24.50
+    [netAmount] => 458.50
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2020-12-29T00:05:38.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 40
+                    [description] => InglÃªs VII Upper-intermediate I | Seg/Qua 19h Ãs 20h30
+                    [quantity] => 1
+                    [amount] => 483.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Testisvaldo dos testes
+            [email] => hallyson@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 83
+                    [number] => 999999999
+                )
+
+            [documents] => SimpleXMLElement Object
+                (
+                    [document] => SimpleXMLElement Object
+                        (
+                            [type] => CPF
+                            [value] => 13031894022
+                        )
+
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA PASTOR RODOLFO BEUTTEMULLER
+                    [number] => 23123
+                    [complement] => teste
+                    [district] => Jardim Cidade Universitária
+                    [city] => JOAO PESSOA
+                    [state] => PB
+                    [country] => BRA
+                    [postalCode] => 58052140
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+    [gatewaySystem] => SimpleXMLElement Object
+        (
+            [type] => cielo
+            [rawCode] => SimpleXMLElement Object
+                (
+                )
+
+            [rawMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedCode] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [authorizationCode] => 0
+            [nsu] => 0
+            [tid] => 0
+            [establishmentCode] => 1056784170
+            [acquirerName] => CIELO
+        )
+
+)
+Array
+(
+    [notificationType] => transaction
+    [notificationCode] => 4B22DE-4C8DC98DC9B9-E004FC2FA554-52ED26
+)
+SimpleXMLElement Object
+(
+    [date] => 2020-12-14T23:56:18.000-03:00
+    [code] => 22FFE4FB-2689-4140-97AE-4968BB08FBEE
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2020-12-15T00:05:38.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 483.00
+    [discountAmount] => 0.00
+    [feeAmount] => 24.50
+    [netAmount] => 458.50
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2020-12-29T00:05:38.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 40
+                    [description] => InglÃªs VII Upper-intermediate I | Seg/Qua 19h Ãs 20h30
+                    [quantity] => 1
+                    [amount] => 483.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Testisvaldo dos testes
+            [email] => hallyson@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 83
+                    [number] => 999999999
+                )
+
+            [documents] => SimpleXMLElement Object
+                (
+                    [document] => SimpleXMLElement Object
+                        (
+                            [type] => CPF
+                            [value] => 13031894022
+                        )
+
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA PASTOR RODOLFO BEUTTEMULLER
+                    [number] => 23123
+                    [complement] => teste
+                    [district] => Jardim Cidade Universitária
+                    [city] => JOAO PESSOA
+                    [state] => PB
+                    [country] => BRA
+                    [postalCode] => 58052140
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+    [gatewaySystem] => SimpleXMLElement Object
+        (
+            [type] => cielo
+            [rawCode] => SimpleXMLElement Object
+                (
+                )
+
+            [rawMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedCode] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [authorizationCode] => 0
+            [nsu] => 0
+            [tid] => 0
+            [establishmentCode] => 1056784170
+            [acquirerName] => CIELO
+        )
+
+)
+Array
+(
+    [notificationType] => transaction
+    [notificationCode] => 4B22DE-4C8DC98DC9B9-E004FC2FA554-52ED26
+)
+SimpleXMLElement Object
+(
+    [date] => 2020-12-14T23:56:18.000-03:00
+    [code] => 22FFE4FB-2689-4140-97AE-4968BB08FBEE
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2020-12-15T00:05:38.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 483.00
+    [discountAmount] => 0.00
+    [feeAmount] => 24.50
+    [netAmount] => 458.50
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2020-12-29T00:05:38.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 40
+                    [description] => InglÃªs VII Upper-intermediate I | Seg/Qua 19h Ãs 20h30
+                    [quantity] => 1
+                    [amount] => 483.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Testisvaldo dos testes
+            [email] => hallyson@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 83
+                    [number] => 999999999
+                )
+
+            [documents] => SimpleXMLElement Object
+                (
+                    [document] => SimpleXMLElement Object
+                        (
+                            [type] => CPF
+                            [value] => 13031894022
+                        )
+
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA PASTOR RODOLFO BEUTTEMULLER
+                    [number] => 23123
+                    [complement] => teste
+                    [district] => Jardim Cidade Universitária
+                    [city] => JOAO PESSOA
+                    [state] => PB
+                    [country] => BRA
+                    [postalCode] => 58052140
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+    [gatewaySystem] => SimpleXMLElement Object
+        (
+            [type] => cielo
+            [rawCode] => SimpleXMLElement Object
+                (
+                )
+
+            [rawMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedCode] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [authorizationCode] => 0
+            [nsu] => 0
+            [tid] => 0
+            [establishmentCode] => 1056784170
+            [acquirerName] => CIELO
+        )
+
+)
+Array
+(
+    [notificationCode] => 4B22DE-4C8DC98DC9B9-E004FC2FA554-52ED26
+    [notificationType] => transaction
+)
+SimpleXMLElement Object
+(
+    [date] => 2020-12-14T23:56:18.000-03:00
+    [code] => 22FFE4FB-2689-4140-97AE-4968BB08FBEE
+    [type] => 1
+    [status] => 3
+    [lastEventDate] => 2020-12-15T00:05:38.000-03:00
+    [paymentMethod] => SimpleXMLElement Object
+        (
+            [type] => 1
+            [code] => 101
+        )
+
+    [grossAmount] => 483.00
+    [discountAmount] => 0.00
+    [feeAmount] => 24.50
+    [netAmount] => 458.50
+    [extraAmount] => 0.00
+    [escrowEndDate] => 2020-12-29T00:05:38.000-03:00
+    [installmentCount] => 1
+    [itemCount] => 1
+    [items] => SimpleXMLElement Object
+        (
+            [item] => SimpleXMLElement Object
+                (
+                    [id] => 40
+                    [description] => InglÃªs VII Upper-intermediate I | Seg/Qua 19h Ãs 20h30
+                    [quantity] => 1
+                    [amount] => 483.00
+                )
+
+        )
+
+    [sender] => SimpleXMLElement Object
+        (
+            [name] => Testisvaldo dos testes
+            [email] => hallyson@sandbox.pagseguro.com.br
+            [phone] => SimpleXMLElement Object
+                (
+                    [areaCode] => 83
+                    [number] => 999999999
+                )
+
+            [documents] => SimpleXMLElement Object
+                (
+                    [document] => SimpleXMLElement Object
+                        (
+                            [type] => CPF
+                            [value] => 13031894022
+                        )
+
+                )
+
+        )
+
+    [shipping] => SimpleXMLElement Object
+        (
+            [address] => SimpleXMLElement Object
+                (
+                    [street] => RUA PASTOR RODOLFO BEUTTEMULLER
+                    [number] => 23123
+                    [complement] => teste
+                    [district] => Jardim Cidade Universitária
+                    [city] => JOAO PESSOA
+                    [state] => PB
+                    [country] => BRA
+                    [postalCode] => 58052140
+                )
+
+            [type] => 3
+            [cost] => 0.00
+        )
+
+    [gatewaySystem] => SimpleXMLElement Object
+        (
+            [type] => cielo
+            [rawCode] => SimpleXMLElement Object
+                (
+                )
+
+            [rawMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedCode] => SimpleXMLElement Object
+                (
+                )
+
+            [normalizedMessage] => SimpleXMLElement Object
+                (
+                )
+
+            [authorizationCode] => 0
+            [nsu] => 0
+            [tid] => 0
+            [establishmentCode] => 1056784170
+            [acquirerName] => CIELO
+        )
+
+)

@@ -1,0 +1,99 @@
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 15px;
+	
+}
+
+input.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 15px;
+	width: 200px;
+	border-radius: 4px;
+	border: 1px solid #a8ddac;
+	
+}
+
+.muda {
+	font-size: 15px;
+}
+
+a {
+	color: #d4ddd2;
+	font-size: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+	.geral {	
+		margin-top: 110px;
+		border: 2px solid #ffffff;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 13em;
+		padding-left: -10em;
+		padding-right: -10em;
+	}
+	
+	body {
+		background-color: #00a650;
+	}
+	.bloco_1 {
+		width: 80%;
+		height: 100%;
+		background-color: #262424 !important;
+		border-radius: 4px;
+		border: 1px solid rgba(0,0,0,.1);
+		padding: 10px 20px;
+		margin-bottom: 15px;
+		font-weight: 400;
+		font-size: 14px;
+		color: #6f6f6f;
+		text-overflow: ellipsis;
+		opacity: 1;
+	}
+	
+}
+
+@media only screen and (max-width: 980px) {
+	.overlay { 
+		width: 140%;
+		height: 100%;
+		background-color: #141414 !important;
+		color: #ffffff;
+		margin-left:-80px
+	}
+	h1 {
+		font-size: 30px
+	}
+	
+	.page{
+		padding-bottom:9px;
+		margin:30px 0 20px;
+		width: 92%;	
+		border-bottom:1px solid #eee;
+		margin-left:15px
+	}
+	
+	.geralpage {	
+		border: 2px solid #ffffff;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		padding-left: -10em;
+		padding-right: -10em;
+	}
+	
+	
+	
+	.mudda {
+		color: #ffffff;
+		font-size: 15px;
+	}
+}
+h1{
+		color: #ffffff;
+	}
