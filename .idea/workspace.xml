@@ -1,7 +1,542 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18f29734-bf36-4f84-84de-4cddffbb0fd4" name="Default Changelist" comment="" />
+    <list default="true" id="18f29734-bf36-4f84-84de-4cddffbb0fd4" name="Default Changelist" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/header-profile-skin-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/patterns/shattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/blueimp/css/blueimp-gallery.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/bootstrapSocial/bootstrap-social.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/bootstrapTour/bootstrap-tour.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/c3/c3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/chartist/chartist.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/dataTables/datatables.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/dualListbox/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/footable/footable.core.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/images/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/jQueryUI/jquery-ui.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/jsTree/style.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/ladda/ladda-themeless.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/select2/select2-bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/slick/slick-theme.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/slick/slick.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/summernote/font/summernote9d3d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/summernote/font/summernote9d3d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/summernote/font/summernote9d3d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/summernote/font/summernoted41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/summernote/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/sweetalert/sweetalert.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/textSpinners/spinners.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/email_templates/action.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/email_templates/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/email_templates/billing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/email_templates/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/email_templates/styles.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/css/font-awesome.min.css.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/dashboard4_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/dashboard4_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/email_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/email_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/email_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/16/Spain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/16/United-States.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Abkhazia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Afghanistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Aland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Albania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Algeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/American-Samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Andorra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Angola.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Anguilla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Antarctica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Antigua-and-Barbuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Argentina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Armenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Aruba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Australia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Austria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Azerbaijan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bahamas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bahrain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bangladesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Barbados.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Basque-Country.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Belarus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Belgium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Belize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Benin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bermuda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bhutan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bolivia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bosnia-and-Herzegovina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Botswana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Brazil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/British-Antarctic-Territory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/British-Virgin-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Brunei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Bulgaria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Burkina-Faso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Burundi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cambodia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cameroon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Canada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Canary-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cape-Verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cayman-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Central-African-Republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Chad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Chile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/China.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Christmas-Island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cocos-Keeling-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Colombia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Commonwealth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Comoros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cook-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Costa-Rica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cote-dIvoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Croatia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cuba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Curacao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Czech-Republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Democratic-Republic-of-the-Congo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Denmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Djibouti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Dominica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Dominican-Republic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/East-Timor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Ecuador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Egypt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/El-Salvador.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/England.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Equatorial-Guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Eritrea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Estonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Ethiopia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/European-Union.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Falkland-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Faroes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Fiji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Finland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/France.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/French-Polynesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/French-Southern-Territories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Gabon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Gambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Georgia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Germany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Ghana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Gibraltar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/GoSquared.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Greece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Greenland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Grenada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guatemala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guernsey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guinea-Bissau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Guyana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Haiti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Honduras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Hong-Kong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Hungary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Iceland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/India.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Indonesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Iran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Iraq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Ireland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Isle-of-Man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Israel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Italy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Jamaica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Japan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Jersey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Jordan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kazakhstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kenya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kiribati.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kosovo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kuwait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Kyrgyzstan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Laos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Latvia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Lebanon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Lesotho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Liberia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Libya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Liechtenstein.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Lithuania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Luxembourg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Macau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Macedonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Madagascar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Malawi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Malaysia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Maldives.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Malta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Marshall-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Martinique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mauritania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mauritius.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mayotte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mexico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Micronesia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Moldova.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Monaco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mongolia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Montenegro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Montserrat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Morocco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Mozambique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Myanmar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/NATO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Nagorno-Karabakh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Namibia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Nauru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Nepal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Netherlands-Antilles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Netherlands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/New-Caledonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/New-Zealand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Nicaragua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Niger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Nigeria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Niue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Norfolk-Island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/North-Korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Northern-Cyprus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Northern-Mariana-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Norway.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Olympics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Oman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Pakistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Palau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Palestine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Panama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Papua-New-Guinea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Paraguay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Peru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Philippines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Pitcairn-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Poland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Portugal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Puerto-Rico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Qatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Red-Cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Republic-of-the-Congo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Romania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Russia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Rwanda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Barthelemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Helena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Kitts-and-Nevis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Lucia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Martin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saint-Vincent-and-the-Grenadines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Samoa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/San-Marino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Sao-Tome-and-Principe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Saudi-Arabia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Senegal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Serbia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Seychelles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Sierra-Leone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Singapore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Slovakia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Slovenia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Solomon-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Somalia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Somaliland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/South-Africa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/South-Georgia-and-the-South-Sandwich-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/South-Korea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/South-Ossetia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/South-Sudan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Spain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Sri-Lanka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Sudan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Suriname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Swaziland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Sweden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Switzerland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Syria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Taiwan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tajikistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tanzania.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Thailand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Togo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tokelau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tonga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Trinidad-and-Tobago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tunisia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Turkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Turkmenistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Turks-and-Caicos-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Tuvalu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/US-Virgin-Islands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Uganda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Ukraine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/United-Arab-Emirates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/United-Kingdom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/United-Nations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/United-States.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Uruguay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Uzbekistan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Vanuatu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Vatican-City.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Venezuela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Vietnam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Wallis-And-Futuna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Western-Sahara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Yemen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Zambia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/flags/32/Zimbabwe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/full_height.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/10s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/11s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/12s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/1s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/2s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/3s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/4s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/7s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/8s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/gallery/9s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/avatar1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/avatar2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/avatar3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/avatar_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/header_one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/header_two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/perspective.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/landing/word_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/off_canvas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/img/zender_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/chartjs-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/flot-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/morris-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/peity-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/rickshaw-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/demo/sparkline-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/inspinia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/jquery-2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/bootstrap-markdown/bootstrap-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/bootstrap-markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/bootstrapTour/bootstrap-tour.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/bs-custom-file/bs-custom-file-input.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/c3/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/chartJs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/chartist/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/clipboard/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/codemirror/mode/xml/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/d3/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/dataTables/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/datamaps/datamaps.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/diff_match_patch/javascript/diff_match_patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/dotdotdot/jquery.dotdotdot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/dualListbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/footable/footable.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/fullcalendar/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/i18next/i18next.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/idle-timer/idle-timer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jqueryMask/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jsTree/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/ladda/ladda.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/ladda/ladda.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/ladda/spin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/masonary/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/pdfjs/pdf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/pwstrength/pwstrength-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/pwstrength/zxcvbn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/rickshaw/rickshaw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/rickshaw/vendor/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/summernote/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/tinycon/tinycon.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/toastr/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/topojson/topojson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/touchpunch/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/typehead/bootstrap3-typeahead.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/video/responsible-video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/plugins/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inspinia/pdf/example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/matriculas/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codisma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codisma.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MatriculaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MatriculaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Matricula.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Matricula.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +547,9 @@
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -111,6 +649,7 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/artistas/laravel-pagseguro" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lOBzs2n5X90QD04pKuOvo67Rok" />
@@ -121,14 +660,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/pagseguro/pagseguro-php-sdk/source/Configuration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\codisma\resources\views\matriculas" />
+      <recent name="C:\wamp64\www\codisma\app\Http\Controllers\Auth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\codisma\vendor\pagseguro\pagseguro-php-sdk\source\Configuration" />
+      <recent name="C:\wamp64\www\codisma\resources\views\home" />
+      <recent name="C:\wamp64\www\codisma\public\inspinia" />
+      <recent name="C:\wamp64\www\codisma\app\Http\Controllers" />
       <recent name="C:\wamp64\www\codisma" />
+      <recent name="C:\wamp64\www\codisma\vendor\pagseguro\pagseguro-php-sdk\source\Configuration" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,11 +699,41 @@
       <workItem from="1607973286212" duration="2000" />
       <workItem from="1607983509454" duration="3985000" />
       <workItem from="1607997992117" duration="4830000" />
+      <workItem from="1608002906350" duration="361000" />
+      <workItem from="1608003938383" duration="1419000" />
+      <workItem from="1608141025405" duration="92000" />
+      <workItem from="1608216854668" duration="1403000" />
+      <workItem from="1608672182704" duration="11187000" />
+      <workItem from="1608754901518" duration="18000" />
     </task>
+    <task id="LOCAL-00001" summary="workspace">
+      <created>1608002930703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608002930703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="38" key="#CLI_Interpreters" timestamp="1607786739249">
@@ -172,6 +748,10 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="406" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1607460218401" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608679416676">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608679416676" />
     <state x="370" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607650449096">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
@@ -180,13 +760,17 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="416" y="276" width="447" height="265" key="ComposerInitDialogKey/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1607786748346" />
-    <state x="347" y="97" width="585" height="534" key="find.popup" timestamp="1608001981196">
+    <state x="232" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608002956269">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="347" y="97" width="585" height="534" key="find.popup/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608001981196" />
-    <state x="303" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608002022564">
+    <state x="232" y="97" key="Vcs.Push.Dialog.v2/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608002956269" />
+    <state x="347" y="97" width="585" height="534" key="find.popup" timestamp="1608679251211">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608002022564" />
+    <state x="347" y="97" width="585" height="534" key="find.popup/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608679251211" />
+    <state x="303" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608680644467">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="303" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1280.728/-1920.0.1920.1040@0.0.1280.728" timestamp="1608680644467" />
   </component>
 </project>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Categories;
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class InicioController extends Controller
 {
     public function index(Request $request)
     {
@@ -20,4 +20,5 @@ class HomeController extends Controller
     {
         return View('home.success', []);
     }
+
 }

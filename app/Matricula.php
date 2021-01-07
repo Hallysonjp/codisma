@@ -146,6 +146,21 @@ class Matricula extends Model
             ->where('valores.categoria_id', '=', $matricula->categoria_id)->first();
     }
 
+    public function getMatriculas()
+    {
+        return DB::table('turma')
+            ->join('curso', 'turma.curso_id', '=', 'curso.id')
+            ->join('matricula', 'turma.id', '=', 'matricula.turma_id')
+            ->select('matricula.nome',
+                'matricula.email',
+                'matricula.contato',
+                'matricula.whatsapp',
+                'matricula.status_pagamento',
+                'turma.horario',
+                'matricula.datanascimento',
+                'curso.title')->whereNull('matricula.deleted_at')->get();
+    }
+
     public function registerCallback($request)
     {
         if(!empty($request['notificationType']) && $request->notificationType == 'transaction'){

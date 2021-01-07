@@ -16,7 +16,12 @@ class MatriculaController extends Controller
      */
     public function index()
     {
-        //
+
+        $matriculas = (new Matricula())->getMatriculas();
+        return View('matriculas.show', [
+            [],
+            'matriculas' => $matriculas
+        ]);
     }
 
     /**
